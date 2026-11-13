@@ -4,12 +4,12 @@ A Discord bot that helps study groups stay organized: shared to-do lists, and so
 
 ## Features
 
-| Command | What it does |
-|---|---|
-| `/ping` | Check the bot is online |
+| Command            | What it does                                 |
+| ------------------ | -------------------------------------------- |
+| `/ping`            | Check the bot is online                      |
 | `/task add <text>` | Add a task to the server's shared to-do list |
-| `/task list` | Show open tasks |
-| `/task done <id>` | Mark a task done |
+| `/task list`       | Show open tasks                              |
+| `/task done <id>`  | Mark a task done                             |
 
 **Roadmap:** `/remind`, `/poll`, `/flashcard add`, `/flashcard quiz`
 
@@ -20,7 +20,7 @@ Python · discord.py (slash commands, cogs) · SQLite (aiosqlite) · pytest · G
 ## Run it yourself
 
 1. Create a bot at the [Discord Developer Portal](https://discord.com/developers/applications) → **Bot** → copy the token.
-2. Invite it: **OAuth2 → URL Generator** → scopes `bot` + `applications.commands` → permissions *Send Messages*, *Embed Links* → open the URL.
+2. Invite it: **OAuth2 → URL Generator** -> scopes `bot` + `applications.commands` -> permissions _Send Messages_, _Embed Links_ -> open the URL.
 3. Set up and run:
 
 ```bash
